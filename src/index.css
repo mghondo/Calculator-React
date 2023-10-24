@@ -6,11 +6,28 @@
   font-family: "Montserrat", sans-serif;
 }
 
-body {
+/* body {
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: #75aace ;
   background-image: linear-gradient(315deg, #75aace 0%, #80d5e4 74%);
+} */
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    to bottom,
+    /* rgba(0, 0, 0, 0.181), Grey color with transparency */
+    rgba(0, 0, 0, 0.8), /* Same grey color with transparency */
+    transparent,
+    transparent
+  ), url("/public/bg-image-11.jpg"); /* Image path */
+
+  background-size: cover; /* Adjust to your preferred sizing */
+  background-repeat: no-repeat;
 }
